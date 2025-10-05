@@ -8,7 +8,7 @@ export const Languages = ({ theme }) => {
         <div className="flex w-full flex-col transition-all">
           <div
             className={`flex text-md w-full items-center ${
-              theme == "dark" ? "hover:bg-blue-950" : "hover:bg-gray-100"
+              theme == "dark" ? "hover:bg-blue-950" : "hover:bg-gray-200"
             } py-10 rounded transition-all duration-100`}
           >
             <div className="languages--img flex flex-col items-center w-[30%]">
