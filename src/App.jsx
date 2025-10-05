@@ -5,7 +5,7 @@ import { Languages } from "./components/Languages";
 import { Footer } from "./components/Footer";
 
 const App = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark");
 
   const handleThemeChange = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
