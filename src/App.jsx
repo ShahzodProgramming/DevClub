@@ -25,7 +25,7 @@ const App = () => {
         handleThemeChange={handleThemeChange}
       />
       <Home theme={theme} />
-      <Languages />
+      <Languages theme={theme}/>
 
       <Footer />
     </div>

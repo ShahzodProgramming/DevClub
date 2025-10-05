@@ -22,7 +22,7 @@ export const Home = () => {
             textAlign="left"
           />
           <SplitText
-            text="Web dev club"
+            text="Dev club"
             className="text-6xl font-semibold text-center text-blue-400 w-full mb-5"
             delay={100}
             duration={0.6}
